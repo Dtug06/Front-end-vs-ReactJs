@@ -28,3 +28,4 @@ function processStudent(student) {
   console.log(`Môn học yếu nhất:  ${worst.subject} với điểm ${worst.score}`);
 }
 processStudent(student);
+
