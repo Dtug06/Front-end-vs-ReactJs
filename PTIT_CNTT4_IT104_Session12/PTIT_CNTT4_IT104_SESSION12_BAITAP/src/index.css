@@ -1,0 +1,305 @@
+/* bai 10  */
+
+
+/* bai 9 */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #eef2f7;
+  color: #333;
+}
+
+/* Container chính */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h3 {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #222;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  border-radius: 8px;
+  padding: 10px;
+  border: 2px solid #bbb;
+  outline: none;
+  transition: border 0.2s;
+}
+
+form input[type="text"]:focus {
+  border-color: #007bff;
+}
+
+form button {
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #0056b3;
+}
+
+/* Danh sách công việc */
+.list-group-item {
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  margin-bottom: 8px;
+  padding: 12px 16px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  transition: transform 0.2s;
+}
+
+.list-group-item:hover {
+  transform: scale(1.01);
+  background: #f5f9ff;
+}
+
+/* Checkbox và text */
+.list-group-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.list-group-item.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Icon chỉnh sửa & xóa */
+.text-info, .text-danger {
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.text-info:hover {
+  color: #0056b3 !important;
+  transform: scale(1.2);
+}
+
+.text-danger:hover {
+  color: #c82333 !important;
+  transform: scale(1.2);
+}
+/* bai 8 */
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.user-table th,
+.user-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+}
+
+.user-table th {
+  background: #f8f9fa;
+  color: #6c757d;
+  font-weight: 600;
+}
+
+.user-table tr:hover {
+  background: #f1f3f5;
+}
+
+.btn-edit {
+  padding: 6px 12px;
+  margin-right: 8px;
+  background: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background: #e9ecef;
+}
+
+.btn-delete {
+  padding: 6px 12px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}
+/* bai 7 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #cfd8dc;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Navigation */
+.navigation {
+  background: #90a4ae;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* Content layout (3 cột) */
+.content {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  gap: 10px;
+  flex: 1;
+}
+
+/* Menu */
+.menu {
+  background: #1ca54d;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+/* Article */
+.article {
+  background: #90caf9;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Cart List */
+.cart-list {
+  background: #fff5f5;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Cart */
+.cart {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* bai 6 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background: #cfd8dc;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Body gồm Menu và Main */
+.body {
+  display: flex;
+  flex: 1;
+  background: #f5f5f5;
+}
+
+/* Menu */
+.menu {
+  width: 220px;
+  background: #183883;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+/* Footer */
+.footer {
+  background: #cfd8dc;
+  padding: 15px;
+  text-align: center;
+}
