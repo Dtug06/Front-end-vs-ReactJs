@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function delaydCallBack(callBack, sec) {
+        console.log("Ham delayCallBack duoc running!!");
+        setTimeout(() => {
+          callBack(sec);
+        },sec);
+      }
+      function callBack(sec){
+        console.log(`Ham callBack duoc goi lai sau : ${sec}ms`); 
+      }
+      delaydCallBack(callBack,2000)
+    </script>
+  </body>
+</html>
