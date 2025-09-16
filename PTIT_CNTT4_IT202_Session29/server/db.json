@@ -1,0 +1,91 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productName": "MacBook Air M1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/MacBook_Air_M1.png",
+      "price": 23000000,
+      "quantity": 10,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 2,
+      "productName": "Dell XPS 13",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Dell_XPS_13.png",
+      "price": 28000000,
+      "quantity": 7,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 3,
+      "productName": "HP Spectre x360",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/HP_Spectre_x360.png",
+      "price": 26000000,
+      "quantity": 5,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 4,
+      "productName": "Asus ZenBook 14",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Asus_ZenBook.png",
+      "price": 22000000,
+      "quantity": 8,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 5,
+      "productName": "Lenovo ThinkPad X1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/18/ThinkPad_X1.png",
+      "price": 30000000,
+      "quantity": 6,
+      "createdAt": "16/09/2025"
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "studentName": "tran thi hoa",
+      "email": "hoa.tran@gmail.com",
+      "address": "ha noi",
+      "phone": "0912345678",
+      "status": true,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 2,
+      "studentName": "le van long",
+      "email": "long.le@gmail.com",
+      "address": "hai phong",
+      "phone": "0912345679",
+      "status": false,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 3,
+      "studentName": "pham quoc hung",
+      "email": "hung.pham@gmail.com",
+      "address": "da nang",
+      "phone": "0912345680",
+      "status": true,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 4,
+      "studentName": "nguyen thi mai",
+      "email": "mai.nguyen@gmail.com",
+      "address": "can tho",
+      "phone": "0912345681",
+      "status": true,
+      "createdAt": "16/09/2025"
+    },
+    {
+      "id": 5,
+      "studentName": "doan van phuc",
+      "email": "phuc.doan@gmail.com",
+      "address": "quang ninh",
+      "phone": "0912345682",
+      "status": false,
+      "createdAt": "16/09/2025"
+    }
+  ]
+}
